@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:h2:~/data/demo;NON_KEYWORDS=USER
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+jwt:
+  secret: "12345678901234567890123456789012"
